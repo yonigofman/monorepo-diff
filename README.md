@@ -39,11 +39,11 @@
 
 ### Command-line Arguments
 
-- `-base` (default: `HEAD^`): The base commit to compare against (e.g., the previous commit or a specific commit hash).
-- `-head` (default: `HEAD`): The head commit to compare to (typically the current commit).
-- `-projects` (default: `apps`): The folder in your Nx monorepo containing the applications to check for changes.
+- `--base` (default: `HEAD^`): The base commit to compare against (e.g., the previous commit or a specific commit hash).
+- `--head` (default: `HEAD`): The head commit to compare to (typically the current commit).
+- `--projects` (default: `apps`): The folder in your Nx monorepo containing the applications to check for changes.
 
 ### Example 1: Detect changes in applications between the current commit and the previous commit
 
 ```bash
-./monorepo-diff -base HEAD^ -head HEAD -projects apps
+./monorepo-diff -base HEAD^ --head HEAD --projects apps
