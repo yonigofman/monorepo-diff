@@ -1,6 +1,6 @@
 # MonorepoDiff
 
-**MonorepoDiff** is a powerful tool designed to detect and analyze changes in applications within an Nx monorepo, based on Git commit differences. It helps developers and CI/CD pipelines quickly identify which applications have been modified between two commits, enabling efficient workflows and targeted deployments.
+**MonorepoDiff** is a powerful tool designed to detect changes in applications within an Nx monorepo, based on Git commit differences. It helps developers and CI/CD pipelines quickly identify which applications have been modified between two commits, enabling efficient workflows and targeted deployments.
 
 ## Features
 
